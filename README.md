@@ -9,5 +9,4 @@ This project provides the code and results for 'Bridging the Gap: Heterogeneous 
 # Requirements
 python 3.9 + pytorch 1.13.0
 # Model Weights and Experimental Results Diagram
-[HetCoLearn_Output](https://pan.baidu.com/s/1M6_wtShd2GDq6yvxapxfsA) 
-code:j463 
+You can download all model experiment weights and model results.[HetCoLearn_Output](https://pan.baidu.com/s/1M6_wtShd2GDq6yvxapxfsA) ,code:j463 
