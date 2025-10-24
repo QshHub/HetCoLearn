@@ -1,5 +1,5 @@
 # HetCoLearn
-This project provides the code and results for 'Bridging the Gap: Heterogeneous Collaborative Learning Framework for Multimodal Remote Sensing Semantic Segmentation'.[Link]()
+This project provides the code and results for 'Bridging the Gap: Heterogeneous Collaborative Learning Framework for Multimodal Remote Sensing Semantic Segmentation'.
 # FGMNet Architecture
 ![image text](https://github.com/QshHub/HetCoLearn/blob/main/FGMNet_Framework.jpg)
 # MWMNet Architecture
