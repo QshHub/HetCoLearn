@@ -4,13 +4,13 @@ import torch
 from torchvision import models as models
 import math
 import numpy as np
-from toolbox.models.TestNet.models.BasicConv import TransBasicConv2d,BasicConv2d
-from toolbox.models.TestNet.models.FE import FE
-from toolbox.models.TestNet.models.Decoder import Decoder1,Decoder2,Decoder3
-from toolbox.models.TestNet.models.IFE import ConvModule
-from toolbox.models.TestNet.Gauss import GaussianAttention
-from toolbox.models.TestNet.models.FFusion import FFTFusionModule
-from toolbox.models.TestNet.models.ResidualsBlock import Residuals
+from toolbox.models.HetCoLearn.models.BasicConv import TransBasicConv2d,BasicConv2d
+from toolbox.models.HetCoLearn.models.FE import FE
+from toolbox.models.HetCoLearn.models.Decoder import Decoder1,Decoder2,Decoder3
+from toolbox.models.HetCoLearn.models.IFE import ConvModule
+from toolbox.models.HetCoLearn.Gauss import GaussianAttention
+from toolbox.models.HetCoLearn.models.FFusion import FFTFusionModule
+from toolbox.models.HetCoLearn.models.ResidualsBlock import Residuals
 
 class FGMNet(nn.Module):
     def __init__(self):
