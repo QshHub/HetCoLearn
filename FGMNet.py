@@ -72,7 +72,7 @@ class FGMNet(nn.Module):
         self.trans_conv4 = TransBasicConv2d(32, 32, kernel_size=2, stride=2,
                                             padding=0, dilation=1, bias=False)
 
-        # MEA
+
         self.resi1 = Residuals(32)
         self.resi2 = Residuals(32)
         self.resi3 = Residuals(32)
@@ -238,7 +238,7 @@ class FGMNet(nn.Module):
 
 
 
-        # MEA
+
         r1 = self.rd_conv1(r1)
         r1 = self.resi1(r1)
         r1 = self.gauss1(r1)
